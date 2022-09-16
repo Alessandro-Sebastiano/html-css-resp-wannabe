@@ -134,6 +134,60 @@ img {
 
     .container {
         max-width: 768px;
+        width: 100%;
     }
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+    .container {
+        max-width: 480px;
+        width: 100%;
+    }
+
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .container .col {
+        width: 90%;
+        margin: 30px 0;
+        padding: 0;
+    }
+
+
+    h2 {
+        max-width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+
+    .steps {
+        margin: 0px;
+    }
+
+
+    .why-us {
+        margin: 0;
+        background-color: #222222;
+    }
+
+
+    .why-us .container {
+        padding-top: 50px;
+    }
+
+    .why-us .container ul li {
+        flex-grow: 1;
+    }
+
 
 }
